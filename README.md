@@ -24,7 +24,7 @@ A list object that contains a summary of conditional causal graph,
 
 ***Installation***  
 `devtools::install_github("hhoulei/MRSL")`  
-This installation depends on the compilation environment in your systerm (LAPACK and BLAS libraries). Possible compilation problems and workarounds can be found in the Issues section (https://github.com/hhoulei/MRSL0119/issues). We welcome you to continue to discuss your errors and solutions.  
+This installation depends on the compilation environment in your systerm (LAPACK and BLAS libraries). Possible compilation problems and workarounds can be found in the Issues section (https://github.com/hhoulei/MRSL/issues). We welcome you to continue to discuss your errors and solutions.  
 
 ***Toy Example***  
 The following toyexample.Rdata can be downloaded from https://github.com/hhoulei/MRSL_simul/blob/main/toyexample.Rdata   
