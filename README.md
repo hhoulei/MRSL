@@ -28,8 +28,8 @@ This installation depends on the compilation environment in your systerm (LAPACK
 
 ***Toy Example***  
 The following toyexample.Rdata can be downloaded from https://github.com/hhoulei/MRSL_simul/blob/main/toyexample.Rdata   
-`library(MRSL)` 
-`library(igraph)` 
+`library(MRSL)`  
+`library(igraph)`  
 `load('toyexample.Rdata')`  
 `res <- MRSL(M_amatt,data_sum_beta,data_sum_se,`  
 `beta,cutoff=0.05,adj_methods=1,use_eggers_step2=0,vary_mvmr_adj=0)`  
