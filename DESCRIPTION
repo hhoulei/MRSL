@@ -1,0 +1,20 @@
+Package: MRSL
+Type: Package
+Title: MRSL: A Causal Network Pruning Algorithm based on GWAS Summary Data
+Version: 0.1.0
+Author: Lei Hou
+Maintainer: Lei Hou <houlei@pku.edu.cn>
+Description: when we have a marginal causal graph with its adjacent matrix,
+    MRSL() perform a pruning algorithm to obtain a conditional causal graph;
+    PLOT_NET() plot the graphical presentation of a graph based on igraph;
+    kenDTau() and SPearF() evalulate the consistency between the estimated 
+    and the true topological sorting.
+License: 1.0.0
+Encoding: UTF-8
+Imports: Rcpp,igraph
+LinkingTo: RcppArmadillo,RcppEigen
+Suggests: 
+    R (>= 3.5.0)
+Config/testthat/edition: 3
+RoxygenNote: 7.2.3
+
